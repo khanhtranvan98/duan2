@@ -1,0 +1,138 @@
+        <!-- THẺ HAY DÙNG
+        h1 - h6 (tiêu đề)
+        p (đoạn văn) 
+        img (hiển thị hình ảnh)        
+        a (đặt liên kết)
+        ul(ol), li (hiển thị danh sách)
+        table (kẻ bảng)
+        input (nhập chữ)
+        button (nút nhấn)
+        div (thẻ bao quanh)
+        id (đặt tên cho 1 đối tượng)
+        class (đặt tên cho nhiều đối tượng) -->
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+            <link rel="stylesheet" href="./assets/css/base.css">
+            <link rel="stylesheet" href="./assets/css/main.css">
+            <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.4.2-web/css/all.min.css">
+        </head>
+        <body>
+            <div class="app">
+                <header class="header">
+                    <div class="grid">
+                        <nav class="header_navbar">
+                            <ul class="header__navbar-list">
+                                <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                                    Vào cửa hàng trên ứng dụng F8-Shop
+                                    <div class="header__qr">
+                                        <img src="./assets/img/d91264e165ed6facc6178994d5afae79.png" alt="QR code" class="header__qr-img">
+                                        <div class="header__qr-apps">
+                                            <a href="" class="header__qr-link"><img src="./assets/img/f4f5426ce757aea491dce94201560583.png" alt="google" class="header__qr-download-img"></a>
+                                            <a href="" class="header__qr-link"> <img src="./assets/img/39f189e19764dab688d3850742f13718.png" alt="appstore" class="header__qr-download-img"></a>                                          
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__navbar-item">
+                                    <span class="header__navbar-title--no-pointer" >Kết nối</span>
+                                    <a href="https://www.facebook.com/profile.php?id=100053545154834" class="header__navbar-icon-link">
+                                        <i class="header__navbar-icon fa-brands fa-square-facebook"></i>
+                                    </a>
+                                    <a href="" class="header__navbar-icon-link">
+                                        <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+    
+                            <ul class="header__navbar-list">
+                                <li class="header__navbar-item">
+                                    <a href="" class="header__navbar-icon-link">
+                                        <i class="header_navbar-icon fa-solid fa-bell"></i>
+                                        Thông báo</a>
+                                </li>
+                                <li class="header__navbar-item">
+                                    <a href="" class="header__navbar-icon-link">
+                                        <i class="header_navbar-icon fa-regular fa-circle-question"></i>
+                                        Trợ giúp</a>
+                                </li>
+                                <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng ký</li>
+                                <li class="header__navbar-item header__navbar-item--strong" id="button">Đăng nhập</li>
+                            </ul>
+                        </nav>
+                    </header>
+                    </div>
+                <div class="contaiter">
+
+                </div>
+                
+                <footer class="footer">
+
+                </footer>
+            </div> 
+
+
+            <div id="hiden" class="modal">
+                <div class="modal__overlay"></div>
+
+                <div class="modal__body">
+                    
+
+                    <div class="auth-form">
+                        <div class="auth-form__container">
+
+                            <div class="auth-form__header">
+                                <div class="h3 auth-form__heading">DANG KY</div>
+                                <span class="auth-form_swith-btn">DANG NHAP</span>
+                            </div>
+
+                            <div class="auth-form__form">
+                                <div class="auth-form__group">
+                                    <input type="text" class="auth-form__input" placeholder="Email cua ban">
+                                </div>
+                                <div class="auth-form__group">
+                                    <input type="password" class="auth-form__input" placeholder="Mat khau cua ban">
+                                </div>
+                                <div class="auth-form__group">
+                                    <input type="password" class="auth-form__input" placeholder="Nhap lai mat khau">
+                                </div>
+                            </div>
+
+                            <div class="auth-form__aside">
+                                <p class="auth-form__lolicy-text">Bang viec dang ky, ban da dong y voi Shopee ve
+                                    <a href="" class="auth-form__policy-link">Dieu khoan dich vu</a> &
+                                    <a href="" class="auth-form__policy-link">Chinh sach bao mat</a>
+                                </p>
+                            </div>
+
+                            <div class="auth-form__controls">
+                                <button class="btn auth-form__controls-back">TRO LAI</button>
+                                <button class="btn btn--primary">DANG KY</button>
+                            </div>
+                        </div>
+
+
+
+                        <div class="auth-form__social">
+                            <a href="" class="btn btn--with-icon">
+                                <i class="fa-brands fa-square-facebook"></i>
+                                ket noi facebook
+                            </a>
+                            <a href="" class="btn btn--with-icon">
+                                <i class="fa-brands fa-google"></i>
+                                ket noi google
+                            </a>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+            <div class="test">
+                <button id="test" class="btntest">click me</button>
+                <div id="test1" class="show">hello</div>
+            </div>
+            <script src="app.js"></script>
+        </body>
+        </html>
